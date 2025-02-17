@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main Container */
+.container {
+  width: 400px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Heading */
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Task Form */
+.task-form {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.task-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.task-input:focus {
+  border-color: #007bff;
+}
+
+/* Submit Button */
+.task-button {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.task-button:hover {
+  background: #0056b3;
+}
+
+/* Task List */
+.task-list {
+  padding: 10px;
+  border-radius: 8px;
+  background: #f1f1f1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Task Items */
+.task-item {
+  background: #ffffff;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.task-title {
+  font-weight: 600;
+  color: #101010;
+}
+
+.task-desc {
+  color: #303030;
+  font-size: 13px;
+}
+
+/* Buttons */
+.task-item button {
+  padding: 6px 10px;
+  border: none;
+  font-size: 12px;
+  color: white;
+  background-color: rgba(229, 32, 32, 0.77);
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.task-item button:first-child {
+  background: #ff4757;
+}
+
+.task-item button:last-child {
+  background: #1e90ff;
+}
+
+.task-item button:hover {
+  opacity: 0.8;
+}
