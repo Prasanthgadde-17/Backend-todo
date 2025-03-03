@@ -9,7 +9,7 @@ app.use(express.json())
 app.use("/api/task",router)
 
 
-mongoose.connect("mongodb+srv://learner0228:zWMQ5AwxaMBQB8Yy@cluster1.mt28p.mongodb.net/Task")
+mongoose.connect("mongodb+srv://")
 .then(()=>{
     console.log("DB Connected Sucessfully")
 }).catch(()=>{
